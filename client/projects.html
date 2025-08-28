@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Kiran Damai</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+      
+  <!-- Navigation -->
+  <nav class="bg-gray-800 shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <a href="index.html" class="text-2xl font-bold text-cyan-400">Kiran Damai</a>
+        </div>
+            
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="text-gray-300 hover:text-cyan-400 transition-colors">Home</a>
+          <a href="about.html" class="text-gray-300 hover:text-cyan-400 transition-colors">About</a>
+          <a href="projects.html" class="text-cyan-400 font-semibold">Projects</a>
+          <a href="certifications.html" class="text-gray-300 hover:text-cyan-400 transition-colors">Certifications</a>
+          <a href="contact.html" class="text-gray-300 hover:text-cyan-400 transition-colors">Contact</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button class="mobile-menu-button text-gray-300 hover:text-white focus:outline-none">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu hidden md:hidden bg-gray-800">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="index.html" class="block px-3 py-2 text-gray-300 hover:text-cyan-400">Home</a>
+        <a href="about.html" class="block px-3 py-2 text-gray-300 hover:text-cyan-400">About</a>
+        <a href="projects.html" class="block px-3 py-2 text-cyan-400 font-semibold">Projects</a>
+        <a href="certifications.html" class="block px-3 py-2 text-gray-300 hover:text-cyan-400">Certifications</a>
+        <a href="contact.html" class="block px-3 py-2 text-gray-300 hover:text-cyan-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-cyan-900">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+          My Projects
+        </h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          A showcase of my cybersecurity projects, research work, and practical implementations demonstrating my skills in ethical hacking, security analysis, and defensive technologies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="py-20 bg-gray-900">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-cyan-400">Featured Projects</h2>
+            
+        <div class="grid lg:grid-cols-2 gap-8 mb-16">
+          <!-- Project 1 - Vulnerability Scanner -->
+          <div class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-700 transition-colors project-card">
+            <div class="p-8">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-search text-cyan-400 text-3xl mr-4"></i>
+                <div>
+                  <h3 class="text-2xl font-semibold text-white">Network Vulnerability Scanner</h3>
+                  <p class="text-gray-400">Advanced Security Assessment Tool</p>
+                </div>
+              </div>
+                  
+              <p class="text-gray-300 mb-6 leading-relaxed">
+                A comprehensive Python-based vulnerability scanner that performs automated network reconnaissance, port scanning, and vulnerability assessment with detailed reporting capabilities. Integrates multiple scanning engines and provides actionable security recommendations.
+              </p>
+                  
+              <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Key Features:</h4>
+                <ul class="text-gray-300 space-y-2">
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Multi-threaded port scanning</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Service enumeration and banner grabbing</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>CVE database integration</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Automated report generation</li>
+                </ul>
+              </div>
+                  
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">Nmap</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">SQLite</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">JSON</span>
+              </div>
+                  
+              <div class="flex space-x-4">
+                <a href="#" class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-6 py-2 rounded-lg font-semibold hover:from-cyan-500 hover:to-blue-600 transition-colors inline-flex items-center">
+                  <i class="fab fa-github mr-2"></i>View Code
+                </a>
+                <a href="#" class="border-2 border-cyan-400 text-cyan-400 px-6 py-2 rounded-lg font-semibold hover:bg-cyan-400 hover:text-gray-900 transition-colors inline-flex items-center">
+                  <i class="fas fa-play mr-2"></i>Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 - Web App Security Tester -->
+          <div class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-700 transition-colors project-card">
+            <div class="p-8">
+              <div class="flex items-center mb-4">
+                <i class="fas fa-globe text-cyan-400 text-3xl mr-4"></i>
+                <div>
+                  <h3 class="text-2xl font-semibold text-white">Web Application Security Tester</h3>
+                  <p class="text-gray-400">OWASP-Based Penetration Testing</p>
+                </div>
+              </div>
+                  
+              <p class="text-gray-300 mb-6 leading-relaxed">
+                A comprehensive web application security testing framework that automates the detection of common vulnerabilities following OWASP Top 10 guidelines. Features include SQL injection testing, XSS detection, and security header analysis.
+              </p>
+                  
+              <div class="mb-6">
+                <h4 class="text-lg font-semibold text-white mb-3">Security Tests:</h4>
+                <ul class="text-gray-300 space-y-2">
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>SQL Injection vulnerability scanning</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Cross-Site Scripting (XSS) detection</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Security headers analysis</li>
+                  <li class="flex items-center"><i class="fas fa-check text-cyan-400 mr-2"></i>Directory traversal testing</li>
+                </ul>
+              </div>
+                  
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">Python</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">Requests</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">BeautifulSoup</span>
+                <span class="bg-cyan-900 text-cyan-300 px-3 py-1 rounded-full text-sm">OWASP</span>
+              </div>
+                  
+              <div class="flex space-x-4">
+                <a href="#" class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-6 py-2 rounded-lg font-semibold hover:from-cyan-500 hover:to-blue-600 transition-colors inline-flex items-center">
+                  <i class="fab fa-github mr-2"></i>View Code
+                </a>
+                <a href="#" class="border-2 border-cyan-400 text-cyan-400 px-6 py-2 rounded-lg font-semibold hover:bg-cyan-400 hover:text-gray-900 transition-colors inline-flex items-center">
+                  <i class="fas fa-file-alt mr-2"></i>Documentation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- All Projects -->
+    <section class="py-20 bg-gray-800">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-cyan-400">All Projects</h2>
+            
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              
+          <!-- Encryption Tool -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-lock text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Multi-Cipher Encryption Tool</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Custom encryption and decryption tool supporting multiple cipher algorithms including AES, RSA, and classical ciphers with GUI interface.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Tkinter</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Cryptography</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+
+          <!-- Password Strength Analyzer -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-key text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Password Security Analyzer</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Advanced password strength analyzer that checks against common patterns, dictionary attacks, and provides security recommendations.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Flask</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Regex</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+
+          <!-- Network Monitoring Tool -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-network-wired text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Network Traffic Monitor</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Real-time network traffic monitoring tool with anomaly detection and alerting capabilities for suspicious activities.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Scapy</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Wireshark</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+
+          <!-- Phishing Detection -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-fish text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Phishing URL Detector</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Machine learning-based phishing URL detection system that analyzes URL patterns and website characteristics.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Scikit-learn</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Pandas</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+
+          <!-- Log Analysis Tool -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-chart-line text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Security Log Analyzer</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Automated security log analysis tool that identifies potential threats and generates comprehensive security reports.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Matplotlib</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Elasticsearch</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+
+          <!-- Steganography Tool -->
+          <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors project-card">
+            <div class="flex items-center mb-4">
+              <i class="fas fa-eye-slash text-cyan-400 text-2xl mr-3"></i>
+              <h3 class="text-xl font-semibold text-white">Digital Steganography Tool</h3>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Advanced steganography application for hiding and extracting secret messages within digital images and audio files.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">Python</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">PIL</span>
+              <span class="bg-gray-600 text-gray-300 px-2 py-1 rounded text-sm">NumPy</span>
+            </div>
+            <a href="#" class="text-cyan-400 hover:text-cyan-300 transition-colors">
+              View Project <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academic Projects -->
+    <section class="py-20 bg-gray-900">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-orange-400">Academic Projects</h2>
+            
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-orange-400">
+            <h3 class="text-2xl font-semibold text-white mb-4">
+              <i class="fas fa-university text-orange-400 mr-3"></i>
+              Network Security Implementation
+            </h3>
+            <p class="text-gray-300 mb-6">
+              Comprehensive network security project implementing multiple security protocols, firewalls, and intrusion detection systems in a simulated enterprise environment.
+            </p>
+            <div class="mb-4">
+              <h4 class="text-lg font-semibold text-white mb-2">Components:</h4>
+              <ul class="text-gray-300 space-y-1">
+                <li>• VPN Configuration and Management</li>
+                <li>• Firewall Rules and Policies</li>
+                <li>• IDS/IPS Implementation</li>
+                <li>• Network Segmentation</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">Cisco</span>
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">pfSense</span>
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">Snort</span>
+            </div>
+          </div>
+
+          <div class="bg-gray-800 rounded-lg p-8 border-l-4 border-orange-400">
+            <h3 class="text-2xl font-semibold text-white mb-4">
+              <i class="fas fa-microscope text-orange-400 mr-3"></i>
+              Digital Forensics Investigation
+            </h3>
+            <p class="text-gray-300 mb-6">
+              Complete digital forensics investigation project including evidence acquisition, analysis, and reporting following legal procedures and best practices.
+            </p>
+            <div class="mb-4">
+              <h4 class="text-lg font-semibold text-white mb-2">Skills Demonstrated:</h4>
+              <ul class="text-gray-300 space-y-1">
+                <li>• Evidence Collection and Preservation</li>
+                <li>• File System Analysis</li>
+                <li>• Network Forensics</li>
+                <li>• Legal Report Writing</li>
+              </ul>
+            </div>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">Autopsy</span>
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">FTK</span>
+              <span class="bg-orange-900 text-orange-300 px-3 py-1 rounded text-sm">Volatility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies Used -->
+    <section class="py-20 bg-gray-800">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12 text-cyan-400">Technologies & Tools</h2>
+            
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fab fa-python text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Python</p>
+            <p class="text-gray-400 text-sm">Primary Language</p>
+          </div>
+              
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fab fa-linux text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Kali Linux</p>
+            <p class="text-gray-400 text-sm">Pentesting OS</p>
+          </div>
+              
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fas fa-search text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Nmap</p>
+            <p class="text-gray-400 text-sm">Network Scanner</p>
+          </div>
+              
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fas fa-bug text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Burp Suite</p>
+            <p class="text-gray-400 text-sm">Web App Testing</p>
+          </div>
+              
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fas fa-eye text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Wireshark</p>
+            <p class="text-gray-400 text-sm">Packet Analysis</p>
+          </div>
+              
+          <div class="text-center p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors">
+            <i class="fas fa-hammer text-4xl text-cyan-400 mb-3"></i>
+            <p class="text-white font-semibold">Metasploit</p>
+            <p class="text-gray-400 text-sm">Exploitation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 bg-gradient-to-r from-cyan-900 to-blue-900">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold mb-4 text-white">Interested in Collaboration?</h2>
+        <p class="text-xl text-gray-200 mb-8">
+          I'm always open to working on exciting cybersecurity projects and learning from experienced professionals.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="contact.html" class="bg-white text-cyan-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center">
+            <i class="fas fa-envelope mr-2"></i>
+            Get In Touch
+          </a>
+          <a href="https://github.com" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-cyan-900 transition-colors inline-flex items-center justify-center">
+            <i class="fab fa-github mr-2"></i>
+            View GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-8">
+    <div class="max-w-6xl mx-auto px-4">
+      <p class="text-gray-400">© 2024 Kiran Damai. Building secure solutions for a safer digital world.</p>
+      <div class="mt-4 flex justify-center space-x-6">
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

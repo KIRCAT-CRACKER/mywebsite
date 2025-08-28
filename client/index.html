@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiran Damai - Cybersecurity Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+  <!-- Navigation -->
+  <nav class="bg-gray-800 shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <div class="flex items-center">
+          <h1 class="text-xl font-bold text-cyan-400">Kiran Damai</h1>
+        </div>
+        <div class="hidden md:flex space-x-8">
+          <a href="#home" class="hover:text-cyan-400 transition">Home</a>
+          <a href="#about" class="hover:text-cyan-400 transition">About</a>
+          <a href="#skills" class="hover:text-cyan-400 transition">Skills</a>
+          <a href="#projects" class="hover:text-cyan-400 transition">Projects</a>
+          <a href="#certifications" class="hover:text-cyan-400 transition">Certifications</a>
+          <a href="#contact" class="hover:text-cyan-400 transition">Contact</a>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-white">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="fixed inset-0 bg-gray-800 z-40 hidden">
+    <div class="flex flex-col items-center justify-center h-full space-y-8">
+      <a href="#home" class="text-xl hover:text-cyan-400 transition mobile-menu-link">Home</a>
+      <a href="#about" class="text-xl hover:text-cyan-400 transition mobile-menu-link">About</a>
+      <a href="#skills" class="text-xl hover:text-cyan-400 transition mobile-menu-link">Skills</a>
+      <a href="#projects" class="text-xl hover:text-cyan-400 transition mobile-menu-link">Projects</a>
+      <a href="#certifications" class="text-xl hover:text-cyan-400 transition mobile-menu-link">Certifications</a>
+      <a href="#contact" class="text-xl hover:text-cyan-400 transition mobile-menu-link">Contact</a>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center pt-16">
+    <div class="text-center max-w-4xl mx-auto px-4">
+      <div class="mb-8">
+        <img src="https://via.placeholder.com/200x200/1f2937/06b6d4?text=KD" alt="Kiran Damai" class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-cyan-400">
+        <h1 class="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+          Kiran Damai
+        </h1>
+        <h2 class="text-xl md:text-2xl text-gray-300 mb-8">
+          Cybersecurity Enthusiast | Ethical Hacker | Cloud Security Learner
+        </h2>
+        <p class="text-lg text-gray-400 mb-8 leading-relaxed">
+          Passionate about cybersecurity, ethical hacking, and protecting digital assets. 
+          Currently studying at Softwarica College & Coventry University.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#contact" class="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-lg font-semibold transition">
+            Get In Touch
+          </a>
+          <a href="#projects" class="border border-cyan-500 text-cyan-500 hover:bg-cyan-500 hover:text-white px-8 py-3 rounded-lg font-semibold transition">
+            View Projects
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">About Me</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Education & Background</h3>
+          <p class="text-gray-300 mb-6 leading-relaxed">
+            I'm currently pursuing my studies at Softwarica College in partnership with Coventry University, 
+            focusing on cybersecurity and information technology. My passion lies in understanding and 
+            defending against digital threats.
+          </p>
+          <div class="space-y-4">
+            <div class="flex items-center">
+              <i class="fas fa-graduation-cap text-cyan-400 mr-3"></i>
+              <span>Softwarica College & Coventry University</span>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-shield-alt text-cyan-400 mr-3"></i>
+              <span>Cybersecurity Specialization</span>
+            </div>
+            <div class="flex items-center">
+              <i class="fas fa-cloud text-cyan-400 mr-3"></i>
+              <span>Cloud Security Focus</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Goals & Interests</h3>
+          <ul class="space-y-3 text-gray-300">
+            <li class="flex items-start">
+              <i class="fas fa-check text-cyan-400 mr-3 mt-1"></i>
+              <span>Penetration Testing & Vulnerability Assessment</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-cyan-400 mr-3 mt-1"></i>
+              <span>Incident Response & Digital Forensics</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-cyan-400 mr-3 mt-1"></i>
+              <span>Security Architecture & Risk Management</span>
+            </li>
+            <li class="flex items-start">
+              <i class="fas fa-check text-cyan-400 mr-3 mt-1"></i>
+              <span>Cloud Security Implementation</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Technical Skills</h2>
+      <div id="skills-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- Skills will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Projects</h2>
+      <div id="projects-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Projects will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Certifications</h2>
+      <div id="certifications-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Certifications will be loaded dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-400">Contact Me</h2>
+      <form id="contact-form" class="space-y-6">
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <label for="name" class="block text-sm font-medium mb-2">Name</label>
+            <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-400 focus:border-transparent">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium mb-2">Email</label>
+            <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-400 focus:border-transparent">
+          </div>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium mb-2">Message</label>
+          <textarea id="message" name="message" rows="6" required class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-cyan-400 focus:border-transparent"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-cyan-500 hover:bg-cyan-600 text-white py-3 rounded-lg font-semibold transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-gray-400">&copy; 2024 Kiran Damai. All rights reserved.</p>
+      <div class="flex justify-center space-x-6 mt-4">
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-cyan-400 transition">
+          <i class="fab fa-twitter text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
